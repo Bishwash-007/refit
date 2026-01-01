@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+}
+:root {
+  --white: #ffffff;
+
+  --dark: #101014;
+  --bg-mid-dark: #28282c;
+  --text-mid-dark: #3d3d47;
+  --text-light: #d0d1db;
+
+  --bg-mid-light: #e9ecf2;
+  --bg-light: #fafafa;
+
+  --border-dark: #222222;
+  --border-mid: #dbdad9;
+  --border-light: #e6e6e6;
+
+  --error: #ff2244;
+
+  --link-light: #d0d1db;
+  --link-white: #ffffff;
+
+  --font-sans: "Manrope", system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    width: 100%;
+    font-family: var(--font-sans);
+    background-color: var(--bg-light);
+    color: var(--dark);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  a {
+    color: var(--link-light);
+  }
+
+  a:hover {
+    color: var(--link-white);
+  }
+}
+
+@layer utilities {
+  .bg-dark {
+    background-color: var(--dark);
+  }
+
+  .bg-mid {
+    background-color: var(--bg-mid-dark);
+  }
+
+  .border-dark {
+    border-color: var(--border-dark);
+  }
+
+  .border-mid {
+    border-color: var(--border-mid);
+  }
+
+  .border-light {
+    border-color: var(--border-light);
+  }
+
+  .text-error {
+    color: var(--error);
+  }
+}
+
+@layer base {
+  h1 {
+    font-size: 58px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  h3 {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  h4 {
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  .h4-accordion-title {
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  .h4-static-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  .h4-footer-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .p-body-m {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-mid-dark);
+  }
+
+  .p-body-s {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+  }
+
+  .p-intro {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  .p-menu-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .p-form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  .p-notification-badge {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-light);
+  }
+
+  .p-button-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .p-button-text-sm {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .p-quote {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-mid-dark);
+  }
+
+  .p-contact-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+  }
+}
