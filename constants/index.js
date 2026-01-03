@@ -146,7 +146,7 @@ export const workItem = [
       name: "Bishwash Chaudhari",
       image: "/images/avatar.jpg",
     },
-    image: "/images/work.jpg",
+    image: "/images/work1.jpg",
   },
   {
     title: "Bathroom Remodel",
@@ -161,4 +161,12 @@ export const workItem = [
     },
     image: "/images/work2.jpg",
   },
+];
+
+export const Navlinks = [
+  { title: "About", link: "#about" },
+  { title: "Services", link: "#services" },
+  { title: "Our Works", link: "#ourworks" },
+  { title: "FAQs", link: "#faqs" },
+  { title: "Contact", link: "#contact" },
 ];

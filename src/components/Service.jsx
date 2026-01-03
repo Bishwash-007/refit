@@ -10,7 +10,7 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="px-6 lg:px-32 py-32">
+    <section id="services" className="px-6 lg:px-28 py-32">
       {/* Header */}
       <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
         <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
@@ -28,9 +28,9 @@ const Services = () => {
       {/* Content */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-24">
         {/* Image */}
-        <div className="w-full h-[600px] rounded-3xl overflow-hidden bg-mid-light">
+        <div className="w-full h-[600px] overflow-hidden bg-mid-light">
           <img
-            src="images/services.jpg"
+            src="images/work2.jpg"
             alt="Our Services"
             className="w-full h-full object-cover"
           />

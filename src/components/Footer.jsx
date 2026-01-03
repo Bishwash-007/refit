@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       id="footer"
-      className="px-6 lg:px-32 py-16 bg-dark border-t border-border-light"
+      className="px-6 lg:px-28 py-16 bg-dark border-t border-border-light"
     >
       {/* Top */}
       <div className="flex flex-row items-start justify-between text-center">
@@ -43,7 +43,7 @@ const Footer = () => {
         <p className="text-white text-sm">© 2025 Refit. All rights reserved.</p>
 
         <p className="text-white text-sm">
-          Designed & Built by{" "}
+          Developed by{" "}
           <a
             href="https://bishwashchaudhari.com.np"
             target="_blank"

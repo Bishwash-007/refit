@@ -2,7 +2,7 @@ import { stats } from "../../constants";
 
 const About = () => {
   return (
-    <section className="px-6 lg:px-32 py-24">
+    <section className="px-6 lg:px-28 py-24">
       {/* Top Content */}
       <div className="flex flex-col lg:flex-row items-start justify-between gap-12">
         <div className="flex flex-col gap-6 max-w-xl">
@@ -30,9 +30,9 @@ const About = () => {
         {["1", "2", "3"].map((img) => (
           <img
             key={img}
-            src={`images/about-img${img}.jpg`}
+            src={`images/about${img}.jpg`}
             alt={`About Image ${img}`}
-            className="w-full h-[560px] rounded-3xl object-cover"
+            className="w-full h-[560px] object-cover"
           />
         ))}
       </div>

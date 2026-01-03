@@ -11,11 +11,11 @@ const FAQs = () => {
   };
 
   return (
-    <section id="faqs" className="px-6 lg:px-32 py-32">
+    <section id="faqs" className="px-6 lg:px-28 py-32">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         {/* Left: Content */}
         <div className="flex flex-col gap-6">
-                    <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
+          <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
             <p className="p-notification-badge text-white">FAQs</p>
           </div>
 

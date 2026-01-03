@@ -4,13 +4,15 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex h-screen w-full items-center bg-dark px-32 mb-40"
+      className="flex h-screen w-full items-center bg-dark px-28 mb-40"
     >
       <div className="flex w-1/2 flex-col items-start gap-8 text-start">
         <div>
           <div className="inline-flex items-center gap-3 rounded-full bg-mid px-4 py-2">
             <span className="size-2 rounded-full bg-white" />
-            <p className="p-notification-badge text-white">Available for work</p>
+            <p className="p-notification-badge text-white">
+              Available for work
+            </p>
           </div>
 
           <h1 className="mt-4 text-white">

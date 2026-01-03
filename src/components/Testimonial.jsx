@@ -30,7 +30,7 @@ const TestimonialCard = ({ testimonial, rating = 5, name, image }) => {
 
 const Testimonial = () => {
   return (
-    <section id="testimonials" className="px-6 lg:px-32 py-32">
+    <section id="testimonials" className="px-6 lg:px-28 py-32">
       {/* Header */}
       <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
         <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">

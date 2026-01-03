@@ -1,3 +1,4 @@
+import gsap from "gsap";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQ";
@@ -7,7 +8,9 @@ import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 import Testimonial from "./components/Testimonial";
 import Work from "./components/Work";
+import { ScrollTrigger, SplitText } from "gsap/all";
 
+gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <main>

@@ -11,7 +11,7 @@ const WorkCard = ({
   return (
     <div className="flex flex-col lg:flex-row gap-12 my-20 bg-dark/20 p-8 rounded-3xl">
       {/* Image */}
-      <div className="w-full h-[500px] rounded-2xl overflow-hidden bg-mid-light">
+      <div className="w-full h-[500px] overflow-hidden bg-mid-light">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
 
