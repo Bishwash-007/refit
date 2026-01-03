@@ -74,7 +74,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="mt-4 rounded-xl bg-mid px-6 py-6 text-white font-semibold hover:bg-mid-dark transition"
+              className="mt-4 rounded-xl bg-mid px-6 py-5 text-white font-semibold hover:bg-mid-dark transition"
             >
               Submit
             </button>
