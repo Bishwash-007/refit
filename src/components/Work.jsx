@@ -9,7 +9,7 @@ const WorkCard = ({
   author,
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-12 my-20 bg-dark/20 p-8 rounded-3xl">
+    <div className="flex flex-col lg:flex-row gap-12 my-20 rounded-3xl w-full">
       {/* Image */}
       <div className="w-full h-[500px] overflow-hidden bg-mid-light">
         <img src={image} alt={title} className="w-full h-full object-cover" />
@@ -55,7 +55,7 @@ const WorkCard = ({
 
 const Work = () => {
   return (
-    <section id="work" className="px-6 lg:px-40 py-32">
+    <section id="work" className="px-6 lg:px-28 py-32">
       {/* Header */}
       <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
         <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
