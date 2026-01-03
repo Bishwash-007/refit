@@ -110,3 +110,55 @@ export const testimonials = [
     image: "/images/client-3.jpg",
   },
 ];
+
+export const stats = [
+  {
+    value: "7+",
+    title: "Years Experience",
+    desc: "Improving homes with expert craftsmanship for years",
+  },
+  {
+    value: "250+",
+    title: "Projects Completed",
+    desc: "From kitchens to full home renovations",
+  },
+  {
+    value: "100%",
+    title: "Client Satisfaction",
+    desc: "We build trust, not just homes",
+  },
+  {
+    value: "24/7",
+    title: "Support",
+    desc: "Clear communication at every step",
+  },
+];
+
+export const workItem = [
+  {
+    title: "Kitchen Modification",
+    description:
+      "See how we’ve transformed homes with our expert craftsmanship and attention to detail.",
+    longDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    tags: ["Kitchen", "Renovation"],
+    author: {
+      name: "Bishwash Chaudhari",
+      image: "/images/avatar.jpg",
+    },
+    image: "/images/work.jpg",
+  },
+  {
+    title: "Bathroom Remodel",
+    description:
+      "See how we’ve transformed homes with our expert craftsmanship and attention to detail.",
+    longDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    tags: ["Bathroom", "Renovation"],
+    author: {
+      name: "Bishwash Chaudhari",
+      image: "/images/avatar.jpg",
+    },
+    image: "/images/work2.jpg",
+  },
+];

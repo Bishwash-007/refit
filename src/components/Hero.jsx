@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex h-screen w-full items-center bg-dark px-40 mb-40"
+      className="flex h-screen w-full items-center bg-dark px-32 mb-40"
     >
       <div className="flex w-1/2 flex-col items-start gap-8 text-start">
         <div>

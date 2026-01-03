@@ -10,11 +10,11 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="px-6 lg:px-40 py-32">
+    <section id="services" className="px-6 lg:px-32 py-32">
       {/* Header */}
       <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
-        <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full">
-          <span className="p-notification-badge">Services</span>
+        <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
+          <p className="p-notification-badge text-white">Services</p>
         </div>
 
         <h3 className="leading-tight">What We Do</h3>

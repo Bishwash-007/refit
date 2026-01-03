@@ -18,7 +18,7 @@ const AccordionItem = ({
       >
         <div className="flex items-center gap-4">
           <IconComponent name={icon} size={28} className="text-text-dark" />
-          <h4 className="h4-accordion-title">{title}</h4>
+          <h4 className="text-3xl">{title}</h4>
         </div>
 
         <span

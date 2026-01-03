@@ -4,11 +4,11 @@ import { contactDetails, socialLinks } from "../../constants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="px-6 lg:px-40 py-24">
+    <section id="contact" className="px-6 lg:px-32 py-24">
       <div className="flex flex-col lg:flex-row gap-16">
         {/* Left Column - Contact Info */}
         <div className="flex-1 flex flex-col gap-8">
-          <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
+                    <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
             <p className="p-notification-badge text-white">Contact Us</p>
           </div>
 
