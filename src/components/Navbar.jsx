@@ -7,7 +7,7 @@ const Navbar = () => {
     { title: "Contact", link: "#contact" },
   ];
   return (
-    <nav className="fixed z-50 w-full bg-transparent px-32">
+    <nav className="fixed z-50 w-full bg-transparent px-40">
       <div className="flex md:flex-row flex-col md:justify-between items-center gap-5 py-8 lg:px-0 mx-auto">
         <h3 className="flex-1/2">
           <a href="#home" className="text-3xl">Refit</a>
