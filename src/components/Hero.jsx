@@ -4,9 +4,29 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="flex h-screen w-full items-center bg-dark px-28 mb-40"
+      className="
+        relative flex h-screen w-full items-center
+        bg-dark
+        mb-40
+        px-6 
+        lg:flex-row
+        gap-20
+      "
     >
-      <div className="flex w-1/2 flex-col items-start gap-8 text-start">
+      <div
+        className="
+          absolute inset-0
+          bg-[url('/images/hero-img.jpg')]
+          bg-cover bg-center
+          lg:hidden
+          px-6
+        "
+      />
+
+      <div className="absolute inset-0 bg-black/70 lg:hidden" />
+
+      {/* Content */}
+      <div className="relative z-10 flex w-full flex-col gap-8 text-start lg:w-1/2 items-start self-end pb-20 lg:self-center lg:pb-0">
         <div>
           <div className="inline-flex items-center gap-3 rounded-full bg-mid px-4 py-2">
             <span className="size-2 rounded-full bg-white" />
@@ -39,12 +59,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex w-1/2">
-        <div className="absolute top-0 right-0 h-screen bg-linear-to-l from-black to-transparent" />
+      {/* Desktop Image */}
+      <div className="relative hidden h-full w-1/2 lg:flex">
+        <div className="absolute inset-y-0 left-0 w-40 bg-linear-to-l from-transparent to-black" />
         <img
-          src="images/hero-img.jpg"
+          src="/images/hero-img.jpg"
           alt="Hero Image"
-          className="h-screen w-full py-8 object-cover rounded-3xl"
+          className="h-full w-full object-cover"
         />
       </div>
     </section>

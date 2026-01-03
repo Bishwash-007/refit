@@ -2,7 +2,7 @@ import { testimonials } from "../../constants";
 
 const TestimonialCard = ({ testimonial, rating = 5, name, image }) => {
   return (
-    <div className="flex flex-col gap-4 bg-gray-200 p-6 rounded-lg shadow-sm w-2xl">
+    <div className="flex flex-col gap-4 rounded-lg p-6 bg-white">
       {/* Stars */}
       <div className="flex gap-1 text-dark">
         {Array.from({ length: 5 }).map((_, i) => (
@@ -18,11 +18,11 @@ const TestimonialCard = ({ testimonial, rating = 5, name, image }) => {
       </p>
 
       {/* Client */}
-      <div className="flex items-center gap-4 mt-4">
-        <div className="w-10 h-10 rounded-full overflow-hidden bg-mid-light">
-          <img src={image} alt={name} className="w-full h-full object-cover" />
+      <div className="mt-4 flex items-center gap-4">
+        <div className="h-10 w-10 overflow-hidden rounded-full bg-mid-light">
+          <img src={image} alt={name} className="h-full w-full object-cover" />
         </div>
-        <p className="text-dark font-medium">{name}</p>
+        <p className="font-medium text-dark">{name}</p>
       </div>
     </div>
   );
@@ -30,10 +30,10 @@ const TestimonialCard = ({ testimonial, rating = 5, name, image }) => {
 
 const Testimonial = () => {
   return (
-    <section id="testimonials" className="px-6 lg:px-28 py-32">
+    <section id="testimonials" className="px-6 py-32 lg:px-28">
       {/* Header */}
-      <div className="flex flex-col items-center text-center gap-6 max-w-3xl mx-auto">
-        <div className="bg-mid inline-flex items-center px-4 py-1 rounded-full w-fit">
+      <div className="mx-auto max-w-3xl text-center flex flex-col gap-6">
+        <div className="inline-flex w-fit items-center rounded-full bg-mid px-4 py-1 mx-auto">
           <p className="p-notification-badge text-white">Testimonials</p>
         </div>
 
@@ -44,14 +44,19 @@ const Testimonial = () => {
         </p>
       </div>
 
-      {/* Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-24 items-start">
-        {/* Testimonials List */}
-        <div className="flex flex-col gap-6">
-          {testimonials.map((testimonial) => (
-            <TestimonialCard key={testimonial.id} {...testimonial} />
-          ))}
-        </div>
+      {/* Testimonials Grid */}
+      <div
+        className="
+          mt-24
+          grid gap-6
+          grid-cols-1
+          md:grid-cols-2
+          lg:grid-cols-4
+        "
+      >
+        {testimonials.map((testimonial) => (
+          <TestimonialCard key={testimonial.id} {...testimonial} />
+        ))}
       </div>
     </section>
   );

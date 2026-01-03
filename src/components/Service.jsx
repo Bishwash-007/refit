@@ -26,7 +26,7 @@ const Services = () => {
       </div>
 
       {/* Content */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-24">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mt-24 max-md:flex-row">
         {/* Image */}
         <div className="w-full h-[600px] overflow-hidden bg-mid-light">
           <img

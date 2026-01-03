@@ -166,7 +166,7 @@ export const workItem = [
 export const Navlinks = [
   { title: "About", link: "#about" },
   { title: "Services", link: "#services" },
-  { title: "Our Works", link: "#ourworks" },
+  { title: "Works", link: "#works" },
   { title: "FAQs", link: "#faqs" },
   { title: "Contact", link: "#contact" },
 ];

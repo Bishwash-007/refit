@@ -17,8 +17,8 @@ const AccordionItem = ({
         className="w-full flex items-center justify-between gap-4 text-left group"
       >
         <div className="flex items-center gap-4">
-          <IconComponent name={icon} size={28} className="text-text-dark" />
-          <h4 className="text-3xl">{title}</h4>
+          <IconComponent name={icon} size={24} className="text-text-dark" />
+          <h4 className="text-xl">{title}</h4>
         </div>
 
         <span
@@ -26,7 +26,7 @@ const AccordionItem = ({
             isOpen ? "rotate-45" : "rotate-0"
           }`}
         >
-          <IconComponent name="Plus" size={28} />
+          <IconComponent name="Plus" size={24} />
         </span>
       </button>
 
