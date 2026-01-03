@@ -8,7 +8,8 @@ const Hero = () => {
         relative flex h-screen w-full items-center
         bg-dark
         mb-40
-        px-6 
+        px-6
+        lg:px-28
         lg:flex-row
         gap-20
       "
