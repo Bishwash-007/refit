@@ -46,7 +46,7 @@ const WorkCard = ({
               className="w-full h-full object-cover"
             />
           </div>
-          <h4 className="text-dark font-medium">{author.name}</h4>
+          <h4 className="text-dark font-medium text-lg sm:text-xl md:text-2xl lg:text-3xl">{author.name}</h4>
         </div>
       </div>
     </div>
